@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('admin/MiniNavbar/socialmediaAdmin');
+    return view('admin/dashboardAdmin');
 });
 
 Auth::routes();

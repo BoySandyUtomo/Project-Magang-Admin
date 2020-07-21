@@ -1,3 +1,4 @@
+
 @extends('layouts/adminLayout')
 @section('title', 'Social Media')
 
@@ -12,52 +13,35 @@
 
           <!-- Page Heading -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Sosmed</h1>
+            <h1 class="h3 mb-0 text-gray-800">Edit Profile</h1>
             <!-- <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>-->
           </div>
 
-          <div class="d-sm-flex align-items-center mb-4">
-            <a type="submit" class="btn btn-primary ml-2" href="#" data-toggle="modal" data-target="#sosmedModal">Add</a>
-          </div>
-          
-
           <!-- Content Row -->
-          <div class="card shadow mb-4">
-            <div class="card-header py-3">
-              <h6 class="m-0 font-weight-bold text-primary">DataTables Example</h6>
+          <div class="row">
+            <form id="file-upload-form" accept-charset="utf-8" enctype="multipart/form-data" method="post" action="">
+                @csrf
+
+                     <div class="form-group">
+                        <label >Nama</label>
+                        <input type="text" class="form-control" id="" name="">
+                    </div>
+                
+                    <div class="form-group">
+                        <label>Emaill</label>
+                        <input type="number" class="form-control" id="" name="">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleFormControlFile1">View</label>
+                        <input input id="file-upload" type="file" name="image" accept="image/*" onchange="readURL(this);" aria-describedby="inputGroupFileAddon01">
+                    </div>
+
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
             </div>
-            <div class="card-body">
-              <div class="table-responsive">
-                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                  <thead>
-                    <tr>
-                      <th>Nama Web</th>
-                      <th>Link Web</th>
-                      <th>Jenis</th>
-                      <th>Action</th>
-                    </tr>
-                  </thead>
-                  <tfoot>
-                    <tr>
-                    <th>Nama Web</th>
-                      <th>Link Web</th>
-                      <th>Jenis</th>
-                      <th>Action</th>
-                    </tr>
-                  </tfoot>
-                  <tbody>
-                    <tr>
-                      <td>Tiger Nixon</td>
-                      <td>System Architect</td>
-                      <td>Edinburgh</td>
-                      <td>
-                        <a href="#" data-toggle="modal" data-target="#editSosmedModal" class="badge badge-success">Edit</a>
-                        <a href="#" data-toggle="modal" data-target="#deleteSosmedModal" class="badge badge-danger">Delete</a>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+
             </div>
           </div>
       <!-- End of Main Content -->
@@ -150,3 +134,22 @@
       </div>
 
       @endsection
+
+
+
+<script>
+   function readURL(input, id) {
+     id = id || '#file-image';
+     if (input.files &amp;&amp; input.files[0]) {
+         var reader = new FileReader();
+ 
+         reader.onload = function (e) {
+             $(id).attr('src', e.target.result);
+         };
+ 
+         reader.readAsDataURL(input.files[0]);
+         $('#file-image').removeClass('hidden');
+         $('#start').hide();
+     }
+  }
+ </script> 
