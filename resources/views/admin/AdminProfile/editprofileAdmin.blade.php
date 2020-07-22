@@ -1,12 +1,8 @@
 
 @extends('layouts/adminLayout')
-@section('title', 'Social Media')
+@section('title', 'Edit Profile')
 
 @section('content')
-
-<script type="text/javascript">
-  document.getElementById('mininavbar').classList.add('active');
-</script>
 
         <!-- Begin Page Content -->
         <div class="container-fluid">
@@ -19,31 +15,64 @@
 
           <!-- Content Row -->
           <div class="row">
-            <form id="file-upload-form" accept-charset="utf-8" enctype="multipart/form-data" method="post" action="">
-                @csrf
-
-                     <div class="form-group">
-                        <label >Nama</label>
-                        <input type="text" class="form-control" id="" name="">
-                    </div>
+              <!-- left column -->
+              <div class="col-md-3">
+                <div class="text-center">
+                <!-- src="{{ url('img/a.png')}}" -->
+                  <img  class="avatar img-circle" alt="avatar">
+                  <h6>Upload a different photo...</h6>
+                  
+                  <input type="file" class="form-control">
+                </div>
+              </div>
+              
+              <!-- edit form column -->
+              <div class="col-md-9 personal-info">
+                <div class="alert alert-info alert-dismissable">
+                  <a class="panel-close close" data-dismiss="alert">×</a> 
+                  <i class="fa fa-coffee"></i>
+                  This is an <strong>.alert</strong>. Use this to show important messages to the user.
+                </div>
+                <h3>Personal info</h3>
                 
-                    <div class="form-group">
-                        <label>Emaill</label>
-                        <input type="number" class="form-control" id="" name="">
+                <form class="form-horizontal" role="form">
+                  <div class="form-group">
+                    <label class="col-md-3 control-label">Username:</label>
+                    <div class="col-md-8">
+                      <input class="form-control" type="text" value="janeuser">
                     </div>
-
-                    <div class="form-group">
-                        <label for="exampleFormControlFile1">View</label>
-                        <input input id="file-upload" type="file" name="image" accept="image/*" onchange="readURL(this);" aria-describedby="inputGroupFileAddon01">
+                  </div>
+                  <div class="form-group">
+                    <label class="col-lg-3 control-label">Email:</label>
+                    <div class="col-lg-8">
+                      <input class="form-control" type="text" value="janesemail@gmail.com">
                     </div>
-
-
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-md-3 control-label">Password:</label>
+                    <div class="col-md-8">
+                      <input class="form-control" type="password" value="11111122333">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-md-3 control-label">Confirm password:</label>
+                    <div class="col-md-8">
+                      <input class="form-control" type="password" value="11111122333">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-md-3 control-label"></label>
+                    <div class="col-md-8">
+                      <input type="button" class="btn btn-primary" value="Save Changes">
+                      <span></span>
+                      <input type="reset" class="btn btn-default" value="Cancel">
+                    </div>
+                  </div>
                 </form>
-            </div>
-
-            </div>
+              </div>
           </div>
+        </div>
+        </div>
       <!-- End of Main Content -->
 
 

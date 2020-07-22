@@ -82,13 +82,9 @@
                     <input type="text" class="form-control" id="" name="">
 
 
-                    <div class="form-group">
-                    <label for="gambar">Gambar</label>
-                      <select class="form-control" id="" name="">
-                          <option value="" hidden> -- Pilih Gambar -- </option>
-    
-                              <option value=""></option>
-                      </select>
+                    <div class="form-group mt-3">
+                        <label for="file">Gambar</label>
+                        <input input id="file-upload" type="file" name="gambar" accept="image/*" onchange="readURL(this);" aria-describedby="inputGroupFileAddon01">
                     </div>
 
             </form>

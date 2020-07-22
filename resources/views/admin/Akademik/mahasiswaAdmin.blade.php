@@ -16,7 +16,7 @@
             <!-- <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>-->
           </div>
 
-          <div class="d-sm-flex align-items-center mb-4">
+          <div class="d-sm-flex align-items-center m-4">
             <a type="submit" class="btn btn-primary ml-2" href="#" data-toggle="modal" data-target="#mahasiswaModal">Add</a>
           </div>
           
