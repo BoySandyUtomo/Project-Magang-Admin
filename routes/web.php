@@ -149,7 +149,6 @@ Route::get('/menu', function () {
 
 
 //Profile
-
 Route::get('/dosen', function () {
     return view('admin/Profile/dosendantenagakerja');
 });

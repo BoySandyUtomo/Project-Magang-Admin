@@ -1,10 +1,10 @@
 @extends('layouts/adminLayout')
-@section('title', 'Riset')
+@section('title', 'Data Pengguna')
 
 @section('content')
 
 <script type="text/javascript">
-  document.getElementById('riset').classList.add('active');
+  document.getElementById('datapengguna').classList.add('active');
 </script>
 
         <!-- Begin Page Content -->
@@ -35,26 +35,22 @@
                       <th>Email</th>
                       <th>Password</th>
                       <th>Gambar</th>
-                      <th>Action</th>
+                      <th >Action</th>
                     </tr>
                   </thead>
-                  <tfoot>
-                    <tr>
-                      <th>Nama Pengguna</th>
-                      <th>Email</th>
-                      <th>Password</th>
-                      <th>Gambar</th>
-                      <th>Action</th>
-                  </tfoot>
                   <tbody>
                     <tr>
                       <td>Tiger Nixon</td>
                       <td>System Architect</td>
                       <td>System Architect</td>
                       <td>System Architect</td>
-                      <td>
-                        <a href="#" data-toggle="modal" data-target="#editpenggunaModal" class="badge badge-success ">Edit</i></a>
-                        <a href="#" data-toggle="modal" data-target="#deletepenggunaModal" class="badge badge-danger">Delete</a>
+                      <td align="center">
+                        <a href="#" data-toggle="modal" data-target="#editpenggunaModal" style="font-size: 18pt; text-decoration: none;" class="mr-3">
+                          <i class="fas fa-pen-square"></i>
+                        </a>
+                        <a href="#" data-toggle="modal" data-target="#deletepenggunaModal" style="font-size: 18pt; text-decoration: none; color:red;">
+                          <i class="fas fa-trash"></i>
+                        </a>
                       </td>
                     </tr>
                   </tbody>
