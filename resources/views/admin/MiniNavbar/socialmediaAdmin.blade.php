@@ -24,7 +24,7 @@
           <!-- Content Row -->
           <div class="card shadow mb-4">
             <div class="card-header py-3">
-              <h6 class="m-0 font-weight-bold text-primary">DataTables Example</h6>
+              <h6 class="m-0 font-weight-bold text-primary">DataTables Sosmed</h6>
             </div>
             <div class="card-body">
               <div class="table-responsive">
@@ -33,7 +33,6 @@
                     <tr>
                       <th>Nama Web</th>
                       <th>Link Web</th>
-                      <th>Jenis</th>
                       <th>Action</th>
                     </tr>
                   </thead>
@@ -41,14 +40,12 @@
                     <tr>
                     <th>Nama Web</th>
                       <th>Link Web</th>
-                      <th>Jenis</th>
                       <th>Action</th>
                     </tr>
                   </tfoot>
                   <tbody>
                     <tr>
                       <td>Tiger Nixon</td>
-                      <td>System Architect</td>
                       <td>Edinburgh</td>
                       <td>
                         <a href="#" data-toggle="modal" data-target="#editSosmedModal" class="badge badge-success">Edit</a>
@@ -59,6 +56,8 @@
                 </table>
               </div>
             </div>
+          </div>
+          </div>
           </div>
       <!-- End of Main Content -->
 

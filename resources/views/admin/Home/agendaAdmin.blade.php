@@ -43,17 +43,6 @@
                       <th>Action</th>
                     </tr>
                   </thead>
-                  <tfoot>
-                    <tr>
-                      <th>Nama Agenda</th>
-                      <th>Deskripsi</th>
-                      <th>Jam Agenda</th>
-                      <th>Gambar</th>
-                      <th>Tanggal Mulai</th>
-                      <th>Tanggal Selesai</th>
-                      <th>Action</th>
-                    </tr>
-                  </tfoot>
                   <tbody>
                     <tr>
                       <td>Tiger Nixon</td>
@@ -91,24 +80,29 @@
 
             <form accept-charset="utf-8" enctype="multipart/form-data" method="post" action="">
             @csrf
-
+          
                     <label for="namaagenda">Nama agenda</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    
-                    <label for="deskripsi">Deskripsi</label>
+                    <label for="deskripsi" class="mt-2">Deskripsi</label>
                     <input type="text" class="form-control" id="" name="">
 
+                    <div class="form-group row mt-2" >
+                      <div class="col-sm-6 mb-3 mb-sm-0">
+                        <label for="jamaagenda">Jam Mulai</label>
+                        <input type="time" class="form-control" id="" name="">
+                      </div>
+                      <div class="col-sm-6">
+                        <label for="jamaagenda">Jam Selesai</label>
+                        <input type="time" class="form-control" id="" name="">
+                      </div>
+                    </div>
                     
-                    <label for="jamaagenda">Jam Agenda</label>
-                    <input type="text" class="form-control" id="" name="">
-
-                    
-                    <label for="tanggalmulai">Tanggal Mulai</label>
+                    <label for="tanggalmulai" class="mt-2">Tanggal Mulai</label>
                     <input type="date" class="form-control" id="" name="">
 
 
-                    <label for="tanggalselesai">Tanggal Selesai</label>
+                    <label for="tanggalselesai" class="mt-2">Tanggal Selesai</label>
                     <input type="date" class="form-control" id="" name="">
 
                     <div class="form-group mt-3">
@@ -148,27 +142,31 @@
                     <label for="namaagenda">Nama agenda</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    
-                    <label for="deskripsi">Deskripsi</label>
+                    <label for="deskripsi" class="mt-2">Deskripsi</label>
                     <input type="text" class="form-control" id="" name="">
 
+                    <div class="form-group row mt-2" >
+                      <div class="col-sm-6 mb-3 mb-sm-0">
+                        <label for="jamaagenda">Jam Mulai</label>
+                        <input type="time" class="form-control" id="" name="">
+                      </div>
+                      <div class="col-sm-6">
+                        <label for="jamaagenda">Jam Selesai</label>
+                        <input type="time" class="form-control" id="" name="">
+                      </div>
+                    </div>
                     
-                    <label for="jamaagenda">Jam Agenda</label>
-                    <input type="text" class="form-control" id="" name="">
-
-                    
-                    <label for="tanggalmulai">Tanggal Mulai</label>
+                    <label for="tanggalmulai" class="mt-2">Tanggal Mulai</label>
                     <input type="date" class="form-control" id="" name="">
 
 
-                    <label for="tanggalselesai">Tanggal Selesai</label>
+                    <label for="tanggalselesai" class="mt-2">Tanggal Selesai</label>
                     <input type="date" class="form-control" id="" name="">
 
                     <div class="form-group mt-3">
                         <label for="file">Gambar</label>
                         <input input id="file-upload" type="file" name="gambar" accept="image/*" onchange="readURL(this);" aria-describedby="inputGroupFileAddon01">
                     </div>
-
             </form>
 
             </div>

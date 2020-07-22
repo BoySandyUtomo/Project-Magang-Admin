@@ -185,7 +185,7 @@
         <div id="collapseFooter" class="collapse" aria-labelledby="headingFooter" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Footer</h6>
-            <a class="collapse-item" href="{{ url('layanan') }}">Layanan UB</a>
+            <a class="collapse-item" href="https://bits.ub.ac.id/katalog-layanan/layanan-email/">Layanan UB</a>
             <a class="collapse-item" href="{{ url('faq') }}">FAQ</a>
             <a class="collapse-item" href="{{ url('blog') }}">Blog</a>
           </div>

@@ -31,21 +31,16 @@
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                   <thead>
                     <tr>
+                      <th>Kode Jadwal</th>
                       <th>Nama Jadwal</th>
                       <th>Gambar</th>
                       <th>Action</th>
                     </tr>
                   </thead>
-                  <tfoot>
-                    <tr>
-                      <th>Nama Jadwal</th>
-                      <th>Gambar</th>
-                      <th>Action</th>
-                    </tr>
-                  </tfoot>
                   <tbody>
                     <tr>
                       <td>Tiger Nixon</td>
+                      <td>System Architect</td>
                       <td>System Architect</td>
                       <td>
                         <a href="#" data-toggle="modal" data-target="#editjadwalModal" class="badge badge-success">Edit</a>
@@ -78,9 +73,12 @@
             <form accept-charset="utf-8" enctype="multipart/form-data" method="post" action="">
             @csrf
 
-                    <label for="namajadwal">Nama Jadwal</label>
+
+                    <label for="idjadwal">Id Jadwal</label>
                     <input type="text" class="form-control" id="" name="">
 
+                    <label for="namajadwal">Nama Jadwal</label>
+                    <input type="text" class="form-control" id="" name="">
 
                     <div class="form-group mt-3">
                         <label for="file">Gambar</label>
@@ -115,17 +113,15 @@
             <form accept-charset="utf-8" enctype="multipart/form-data" method="post" action="">
             @csrf
 
+            <label for="idjadwal">Id Jadwal</label>
+                    <input type="text" class="form-control" id="" name="">
+
                     <label for="namajadwal">Nama Jadwal</label>
                     <input type="text" class="form-control" id="" name="">
 
-
-                    <div class="form-group">
-                    <label for="gambar">Gambar</label>
-                      <select class="form-control" id="" name="">
-                          <option value="" hidden> -- Pilih Gambar -- </option>
-    
-                              <option value=""></option>
-                      </select>
+                    <div class="form-group mt-3">
+                        <label for="file">Gambar</label>
+                        <input input id="file-upload" type="file" name="gambar" accept="image/*" onchange="readURL(this);" aria-describedby="inputGroupFileAddon01">
                     </div>
 
             </form>

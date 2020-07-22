@@ -37,19 +37,10 @@
                       <th>Perusahaan</th>
                       <th>Caption</th>
                       <th>Link</th>
-                      <th>Gambar</th>
+                      <th>Logo</th>
                       <th>Action</th>
                     </tr>
                   </thead>
-                  <tfoot>
-                    <tr>
-                      <th>Perusahaan</th>
-                      <th>Caption</th>
-                      <th>Link</th>
-                      <th>Gambar</th>
-                      <th>Action</th>
-                    </tr>
-                  </tfoot>
                   <tbody>
                     <tr>
                       <td>Tiger Nixon</td>
@@ -97,7 +88,7 @@
                     <input type="text" class="form-control" id="" name="">
 
                     <div class="form-group mt-3">
-                        <label for="file">Gambar</label>
+                        <label for="file">Logo</label>
                         <input input id="file-upload" type="file" name="gambar" accept="image/*" onchange="readURL(this);" aria-describedby="inputGroupFileAddon01">
                     </div>
             
@@ -141,7 +132,7 @@
                     <input type="text" class="form-control" id="" name="">
 
                     <div class="form-group mt-3">
-                        <label for="file">Gambar</label>
+                        <label for="file">Logo</label>
                         <input input id="file-upload" type="file" name="gambar" accept="image/*" onchange="readURL(this);" aria-describedby="inputGroupFileAddon01">
                     </div>
 

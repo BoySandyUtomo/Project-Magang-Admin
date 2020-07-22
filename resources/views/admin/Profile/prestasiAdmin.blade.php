@@ -43,17 +43,6 @@
                       <th>Action</th>
                     </tr>
                   </thead>
-                  <tfoot>
-                    <tr>
-                      <th>Nama Kejuaraan</th>
-                      <th>Nama</th>
-                      <th>Peringkat</th>
-                      <th>Tahun</th>
-                      <th>Bidang Keahlian</th>
-                      <th>Gambar</th>
-                      <th>Action</th>
-                    </tr>
-                  </tfoot>
                   <tbody>
                     <tr>
                       <td>Tiger Nixon</td>
@@ -99,8 +88,18 @@
                     <label for="nama">Nama</label>
                     <input type="text" class="form-control" id="" name="">
                     
+                    <div class="form-group">
                     <label for="peringkat">Peringkat</label>
-                    <input type="text" class="form-control" id="" name="">
+                      <select class="form-control" id="" name="">
+                          <option value="" hidden> -- Pilih Peringkat -- </option>
+                              <option value="Juara 1">Juara 1</option>
+                              <option value="Juara 2">Juara 2</option>
+                              <option value="Juara 3">Juara 3</option>
+                              <option value="Juara Harapan 1">Juara Harapan 1</option>
+                              <option value="Juara Harapan 2">Juara Harapan 2</option>
+                              <option value="Juara Harapan 3">Juara Harapan 3</option>
+                      </select>
+                    </div>
                     
                     <label for="tahun">Tahun</label>
                     <input type="text" class="form-control" id="" name="">
@@ -147,14 +146,24 @@
             <form accept-charset="utf-8" enctype="multipart/form-data" method="post" action="">
             @csrf
 
-            <label for="namakejuaraaan">Nama Kejuaraaan</label>
+                    <label for="namakejuaraaan">Nama Kejuaraaan</label>
                     <input type="text" class="form-control" id="" name="">
 
                     <label for="nama">Nama</label>
                     <input type="text" class="form-control" id="" name="">
                     
+                    <div class="form-group">
                     <label for="peringkat">Peringkat</label>
-                    <input type="text" class="form-control" id="" name="">
+                      <select class="form-control" id="" name="">
+                          <option value="" hidden> -- Pilih Peringkat -- </option>
+                              <option value="Juara 1">Juara 1</option>
+                              <option value="Juara 2">Juara 2</option>
+                              <option value="Juara 3">Juara 3</option>
+                              <option value="Juara Harapan 1">Juara Harapan 1</option>
+                              <option value="Juara Harapan 2">Juara Harapan 2</option>
+                              <option value="Juara Harapan 3">Juara Harapan 3</option>
+                      </select>
+                    </div>
                     
                     <label for="tahun">Tahun</label>
                     <input type="text" class="form-control" id="" name="">

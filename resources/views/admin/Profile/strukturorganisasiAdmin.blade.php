@@ -36,18 +36,10 @@
                     <tr>
                       <th>Nama Struktur Organisasi</th>
                       <th>Deskripsi</th>
-                      <th>Gambar</th>
+                      <th>Logo</th>
                       <th>Action</th>
                     </tr>
                   </thead>
-                  <tfoot>
-                    <tr>
-                      <th>Nama Struktur Organisasi</th>
-                      <th>Deskripsi</th>
-                      <th>Gambar</th>
-                      <th>Action</th>
-                    </tr>
-                  </tfoot>
                   <tbody>
                     <tr>
                       <td>Tiger Nixon</td>
@@ -63,6 +55,7 @@
               </div>
             </div>
           </div>
+       </div>
        </div>
       <!-- End of Main Content -->
 
@@ -91,8 +84,8 @@
                     <input type="text" class="form-control" id="" name="">
 
                     <div class="form-group mt-3">
-                        <label for="file">Gambar</label>
-                        <input input id="file-upload" type="file" name="gambar" accept="image/*" onchange="readURL(this);" aria-describedby="inputGroupFileAddon01">
+                        <label for="file">Logo</label>
+                        <input input id="file-upload" type="file" name="gambar" accept="image/png" onchange="readURL(this);" aria-describedby="inputGroupFileAddon01">
                     </div>
             
 
@@ -132,8 +125,8 @@
                     <input type="text" class="form-control" id="" name="">
 
                     <div class="form-group mt-3">
-                        <label for="file">Gambar</label>
-                        <input input id="file-upload" type="file" name="gambar" accept="image/*" onchange="readURL(this);" aria-describedby="inputGroupFileAddon01">
+                        <label for="file">Logo</label>
+                        <input input id="file-upload" type="file" name="gambar" accept="image/png" onchange="readURL(this);" aria-describedby="inputGroupFileAddon01">
                     </div>
 
             </form>
