@@ -86,8 +86,8 @@
 
 
                     <label for="deskripsi">Deskripsi</label>
-                    <textarea type="text area" class="form-control" id="" name=""></textarea>
-
+                    <textarea type="text" class="form-control" id="" name=""> </textarea>
+                    
                     <div class="form-group mt-3">
                         <label for="file">File</label>
                         <input input id="file-upload" type="file" name="file" accept="file/*" onchange="readURL(this);" aria-describedby="inputGroupFileAddon01">
@@ -127,7 +127,7 @@
 
 
                     <label for="deskripsi">Deskripsi</label>
-                    <input type="text" class="form-control" id="" name="">
+                    <textarea type="text" class="form-control" id="" name=""> </textarea>
 
                     <label for="lampiran">Lampiran</label>
                     <input type="text" class="form-control" id="" name="">

@@ -31,6 +31,7 @@
         <div class="card-body">
             <div class="table-responsive">
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+
                     <thead>
                         <tr>
                             <th>No</th> {{--Tolong buatkan script buat auto numbering--}}
@@ -89,7 +90,7 @@
                     <input type="text" class="form-control" id="" name="">
 
                     <label for="deskripsi">Deskripsi</label>
-                    <input type="text" class="form-control" id="" name="">
+                    <textarea type="text" class="form-control" id="" name=""> </textarea>
 
                     <label for="lokasi">Lokasi</label>
                     <input type="text" class="form-control" id="" name="">
@@ -134,7 +135,7 @@
                     <input type="text" class="form-control" id="" name="">
 
                     <label for="deskripsi">Deskripsi</label>
-                    <input type="text" class="form-control" id="" name="">
+                    <textarea type="text" class="form-control" id="" name=""> </textarea>
 
                     <label for="lokasi">Lokasi</label>
                     <input type="text" class="form-control" id="" name="">

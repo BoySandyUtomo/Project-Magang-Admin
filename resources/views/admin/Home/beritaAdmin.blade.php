@@ -86,9 +86,9 @@
                         <label for="judulBerita">Judul Berita</label>
                         <input type="text" class="form-control" id="" name="">
 
-
-                        <label for="deskripsi">Deskripsi</label>
-                        <input type="text" class="form-control" id="" name="">
+         
+                    <label for="deskripsi">Deskripsi</label>
+                    <textarea type="text" class="form-control" id="" name=""> </textarea>
 
                         <div class="form-group mt-3">
                             <label for="file">Gambar</label>
@@ -127,9 +127,9 @@
                         <label for="judulBerita">Judul Berita</label>
                         <input type="text" class="form-control" id="" name="">
 
-
-                        <label for="deskripsi">Deskripsi</label>
-                        <input type="text" class="form-control" id="" name="">
+                    
+                    <label for="deskripsi">Deskripsi</label>
+                    <textarea type="text" class="form-control" id="" name=""> </textarea>
 
                         <div class="form-group mt-3">
                             <label for="file">Gambar</label>

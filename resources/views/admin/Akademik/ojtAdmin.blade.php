@@ -4,7 +4,8 @@
 @section('content')
 
 <script type="text/javascript">
-    document.getElementById('Akademik').classList.add('active');
+  document.getElementById('akademik').classList.add('active');
+
 </script>
 
 <!-- Begin Page Content -->
@@ -81,7 +82,7 @@
                     <input type="text" class="form-control" id="" name="">
 
                     <label for="deskripsi">Deskripsi</label>
-                    <input type="text" class="form-control" id="" name="">
+                    <textarea type="text" class="form-control" id="" name=""> </textarea>
 
                 </form>
 
@@ -115,7 +116,7 @@
                     <input type="text" class="form-control" id="" name="">
 
                     <label for="deskripsi">Deskripsi</label>
-                    <input type="text" class="form-control" id="" name="">
+                    <textarea type="text" class="form-control" id="" name=""> </textarea>
 
                 </form>
 

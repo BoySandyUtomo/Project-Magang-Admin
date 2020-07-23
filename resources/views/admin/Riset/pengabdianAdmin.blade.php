@@ -30,6 +30,7 @@
 
 
             <div class="card-body">
+
                 <div class="table-responsive">
                     <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                         <thead>
@@ -61,6 +62,32 @@
                         </tbody>
                     </table>
                 </div>
+
+              <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                  <thead>
+                    <tr>
+                      <th>Judul Pengabdian</th>
+                      <th>deskripsi</th>
+                      <th>Tahun</th>
+                      <th>Gambar</th>
+                      <th>Action</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Tiger Nixon</td>
+                      <td>System Architect</td>
+                      <td>System Architect</td>
+                      <td>System Architect</td>
+                      <td>
+                        <a href="#" data-toggle="modal" data-target="#editpengabdianModal" class="badge badge-success">Edit</a>
+                        <a href="#" data-toggle="modal" data-target="#deletepengabdianModal" class="badge badge-danger">Delete</a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
         </div>
     </div>
@@ -88,7 +115,9 @@
                     <input type="text" class="form-control" id="" name="">
 
                     <label for="peneliti">Deskripsi</label>
+
                     <input type="text" class="form-control" id="" name="">
+                    <textarea type="text" class="form-control" id="" name=""> </textarea>
 
                     <label for="tahun">Tahun</label>
                     <input type="date" class="form-control" id="" name="">
@@ -131,7 +160,10 @@
                     <input type="text" class="form-control" id="" name="">
 
                     <label for="peneliti">Deskripsi</label>
+
                     <input type="text" class="form-control" id="" name="">
+                    <textarea type="text" class="form-control" id="" name=""> </textarea>
+                    
 
                     <label for="tahun">Tahun</label>
                     <input type="date" class="form-control" id="" name="">

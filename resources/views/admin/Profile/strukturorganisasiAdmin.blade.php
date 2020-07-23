@@ -87,7 +87,7 @@
 
 
                     <label for="Deskripsi">Deskripsi</label>
-                    <input type="text" class="form-control" id="" name="">
+                    <textarea type="text" class="form-control" id="" name=""> </textarea>
 
                     <div class="form-group mt-3">
                         <label for="file">Logo</label>
@@ -128,7 +128,7 @@
 
 
                     <label for="Deskripsi">Deskripsi</label>
-                    <input type="text" class="form-control" id="" name="">
+                    <textarea type="text" class="form-control" id="" name=""> </textarea>
 
                     <div class="form-group mt-3">
                         <label for="file">Logo</label>

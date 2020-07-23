@@ -87,11 +87,12 @@
                     <form accept-charset="utf-8" enctype="multipart/form-data" method="post" action="">
                         @csrf
 
+
                         <label for="namaagenda">Nama agenda</label>
                         <input type="text" class="form-control" id="" name="">
 
-                        <label for="deskripsi" class="mt-2">Deskripsi</label>
-                        <input type="text" class="form-control" id="" name="">
+                    <label for="deskripsi" class="mt-2">Deskripsi</label>
+                    <textarea type="text" class="form-control" id="" name=""> </textarea>
 
                         <div class="form-group row mt-2" >
                             <div class="col-sm-6 mb-3 mb-sm-0">
@@ -127,6 +128,33 @@
             </div>
         </div>
     </div>
+
+            <form accept-charset="utf-8" enctype="multipart/form-data" method="post" action="">
+            @csrf
+
+                    <label for="namaagenda">Nama agenda</label>
+                    <input type="text" class="form-control" id="" name="">
+
+                    <label for="deskripsi" class="mt-2">Deskripsi</label>
+                    <textarea type="text" class="form-control" id="" name=""> </textarea>
+
+                    <div class="form-group row mt-2" >
+                      <div class="col-sm-6 mb-3 mb-sm-0">
+                        <label for="jamaagenda">Jam Mulai</label>
+                        <input type="time" class="form-control" id="" name="">
+                      </div>
+                      <div class="col-sm-6">
+                        <label for="jamaagenda">Jam Selesai</label>
+                        <input type="time" class="form-control" id="" name="">
+                      </div>
+                    </div>
+                    
+                    <label for="tanggalmulai" class="mt-2">Tanggal Mulai</label>
+                    <input type="date" class="form-control" id="" name="">
+
+
+                    <label for="tanggalselesai" class="mt-2">Tanggal Selesai</label>
+                    <input type="date" class="form-control" id="" name="">
 
 
     <!-- Edit Agenda Modal-->
