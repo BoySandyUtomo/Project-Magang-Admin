@@ -39,15 +39,6 @@
                       <th>Action</th>
                     </tr>
                   </thead>
-                  <tfoot>
-                    <tr>
-                      <th>Judul</th>
-                      <th>Gambar</th>
-                      <th>Deskripsi</th>
-                      <th>Lokasi</th>
-                      <th>Tanggal</th>
-                      <th>Action</th>
-                  </tfoot>
                   <tbody>
                     <tr>
                       <td>Tiger Nixon</td>
@@ -90,7 +81,7 @@
                     <input type="text" class="form-control" id="" name="">
 
                     <label for="deskripsi">Deskripsi</label>
-                    <input type="text" class="form-control" id="" name="">
+                    <textarea type="text" class="form-control" id="" name=""> </textarea>
 
                     <label for="lokasi">Lokasi</label>
                     <input type="text" class="form-control" id="" name="">
@@ -135,7 +126,7 @@
                     <input type="text" class="form-control" id="" name="">
 
                     <label for="deskripsi">Deskripsi</label>
-                    <input type="text" class="form-control" id="" name="">
+                    <textarea type="text" class="form-control" id="" name=""> </textarea>
 
                     <label for="lokasi">Lokasi</label>
                     <input type="text" class="form-control" id="" name="">

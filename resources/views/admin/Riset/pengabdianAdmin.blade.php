@@ -41,15 +41,6 @@
                       <th>Action</th>
                     </tr>
                   </thead>
-                  <tfoot>
-                    <tr>
-                      <th>Judul Pengabdian</th>
-                      <th>deskripsi</th>
-                      <th>Tahun</th>
-                      <th>Gambar</th>
-                      <th>Action</th>
-                    </tr>
-                  </tfoot>
                   <tbody>
                     <tr>
                       <td>Tiger Nixon</td>
@@ -91,7 +82,7 @@
                     <input type="text" class="form-control" id="" name="">
                     
                     <label for="peneliti">Deskripsi</label>
-                    <input type="text" class="form-control" id="" name="">
+                    <textarea type="text" class="form-control" id="" name=""> </textarea>
                     
                     <label for="tahun">Tahun</label>
                     <input type="date" class="form-control" id="" name="">
@@ -134,7 +125,7 @@
                     <input type="text" class="form-control" id="" name="">
                     
                     <label for="peneliti">Deskripsi</label>
-                    <input type="text" class="form-control" id="" name="">
+                    <textarea type="text" class="form-control" id="" name=""> </textarea>
                     
                     <label for="tahun">Tahun</label>
                     <input type="date" class="form-control" id="" name="">

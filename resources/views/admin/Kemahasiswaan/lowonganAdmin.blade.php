@@ -88,7 +88,7 @@
                     <input type="text" class="form-control" id="" name="">
 
                     <label for="deskripsi">Deskripsi</label>
-                    <input type="text" class="form-control" id="" name="">
+                    <textarea type="text" class="form-control" id="" name=""> </textarea>
 
                     <label for="jenis">jenis Lowongan</label>
                     <input type="date" class="form-control" id="" name="">
@@ -128,11 +128,11 @@
             <form accept-charset="utf-8" enctype="multipart/form-data" method="post" action="">
             @csrf
 
-            <label for="namalowongan">Nama lowongan</label>
+                    <label for="namalowongan">Nama lowongan</label>
                     <input type="text" class="form-control" id="" name="">
 
                     <label for="deskripsi">Deskripsi</label>
-                    <input type="text" class="form-control" id="" name="">
+                    <textarea type="text" class="form-control" id="" name=""> </textarea>
 
                     <label for="jenis">jenis Lowongan</label>
                     <input type="date" class="form-control" id="" name="">

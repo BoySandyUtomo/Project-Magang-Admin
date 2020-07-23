@@ -61,6 +61,7 @@
             </div>
           </div>
        </div>
+       </div>
       <!-- End of Main Content -->
 
 
@@ -88,7 +89,7 @@
 
                     
                     <label for="deskripsi">Deskripsi</label>
-                    <input type="text" class="form-control" id="" name="">
+                    <textarea type="text" class="form-control" id="" name=""> </textarea>
 
                     <label for="idjadwal">Id Jadwal</label>
                     <input type="text" class="form-control" id="" name="">
@@ -143,7 +144,7 @@
 
                     
                     <label for="deskripsi">Deskripsi</label>
-                    <input type="text" class="form-control" id="" name="">
+                    <textarea type="text" class="form-control" id="" name=""> </textarea>
 
                     <label for="idjadwal">Id Jadwal</label>
                     <input type="text" class="form-control" id="" name="">

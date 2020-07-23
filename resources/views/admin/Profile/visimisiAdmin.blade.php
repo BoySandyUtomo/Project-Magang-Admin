@@ -75,7 +75,7 @@
                     <input type="text" class="form-control" id="" name="">
 
                     <label for="deskripsi">Deskripsi</label>
-                    <input type="text" class="form-control" id="" name="">
+                    <textarea type="text" class="form-control" id="" name=""> </textarea>
 
             </form>
 
@@ -109,7 +109,7 @@
                     <input type="text" class="form-control" id="" name="">
 
                     <label for="deskripsi">Deskripsi</label>
-                    <input type="text" class="form-control" id="" name="">
+                    <textarea type="text" class="form-control" id="" name=""> </textarea>
 
             </form>
 
