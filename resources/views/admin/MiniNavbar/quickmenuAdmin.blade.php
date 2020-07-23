@@ -80,7 +80,7 @@
                     <label for="namamenu">Nama Menu</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="linkweb">Link Web</label>
+                    <label for="linkweb" class="mt-2">Link Web</label>
                     <input type="text" class="form-control" id="" name="">
 
                 </form>
@@ -114,7 +114,7 @@
                     <label for="namamenu">Nama Menu</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="linkweb">Link Web</label>
+                    <label for="linkweb" class="mt-2">Link Web</label>
                     <input type="text" class="form-control" id="" name="">
 
                 </form>

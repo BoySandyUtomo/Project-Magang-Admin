@@ -77,10 +77,10 @@
                 <form accept-charset="utf-8" enctype="multipart/form-data" method="post" action="">
                     @csrf
 
-                    <label for="judulsejarah">Judul Sejarah</label>
+                    <label for="judulsejarah" >Judul Sejarah</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="deskripsi">Deskripsi</label>
+                    <label for="deskripsi" class="mt-2">Deskripsi</label>
                     <textarea type="text" class="form-control" id="" name=""> </textarea>
 
                 </form>
@@ -114,7 +114,7 @@
                     <label for="judulsejarah">Judul Sejarah</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="deskripsi">Deskripsi</label>
+                    <label for="deskripsi" class="mt-2">Deskripsi</label>
                     <textarea type="text" class="form-control" id="" name=""> </textarea>
 
                 </form>

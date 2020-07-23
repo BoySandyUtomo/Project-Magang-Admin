@@ -84,10 +84,10 @@
                     <label for="judulkegiatan">Judul kegiatan</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="lokasikegiatan">Lokasi</label>
+                    <label for="lokasikegiatan" class="mt-2">Lokasi</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="tanggalkegiatan">Tanggal</label>
+                    <label for="tanggalkegiatan" class="mt-2">Tanggal</label>
                     <input type="date" class="form-control" id="" name="">
 
 
@@ -128,10 +128,10 @@
                     <label for="judulkegiatan">Judul kegiatan</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="lokasikegiatan">Lokasi</label>
+                    <label for="lokasikegiatan" class="mt-2">Lokasi</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="tanggalkegiatan">Tanggal</label>
+                    <label for="tanggalkegiatan" class="mt-2">Tanggal</label>
                     <input type="date" class="form-control" id="" name="">
 
 

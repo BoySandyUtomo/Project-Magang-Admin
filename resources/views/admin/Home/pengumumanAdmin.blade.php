@@ -62,6 +62,7 @@
             </div>
           </div>
        </div>
+    </div>
       <!-- End of Main Content -->
 
 
@@ -85,7 +86,7 @@
                     <input type="text" class="form-control" id="" name="">
 
 
-                    <label for="deskripsi">Deskripsi</label>
+                    <label for="deskripsi" class="mt-2">Deskripsi</label>
                     <textarea type="text" class="form-control" id="" name=""> </textarea>
                     
                     <div class="form-group mt-3">
@@ -126,11 +127,13 @@
                     <input type="text" class="form-control" id="" name="">
 
 
-                    <label for="deskripsi">Deskripsi</label>
+                    <label for="deskripsi" class="mt-2">Deskripsi</label>
                     <textarea type="text" class="form-control" id="" name=""> </textarea>
 
-                    <label for="lampiran">Lampiran</label>
-                    <input type="text" class="form-control" id="" name="">
+                    <div class="form-group mt-3">
+                        <label for="file">File</label>
+                        <input input id="file-upload" type="file" name="file" accept="file/*" onchange="readURL(this);" aria-describedby="inputGroupFileAddon01">
+                    </div>
 
             </form>
 

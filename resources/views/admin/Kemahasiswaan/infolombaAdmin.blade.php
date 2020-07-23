@@ -89,13 +89,13 @@
                     <label for="judullomba">Judul Lomba</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="deskripsi">Deskripsi</label>
+                    <label for="deskripsi" class="mt-2">Deskripsi</label>
                     <textarea type="text" class="form-control" id="" name=""> </textarea>
 
-                    <label for="lokasi">Lokasi</label>
+                    <label for="lokasi" class="mt-2">Lokasi</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="tanggal">Tanggal</label>
+                    <label for="tanggal" class="mt-2">Tanggal</label>
                     <input type="date" class="form-control" id="" name="">
 
                     <div class="form-group mt-3">
@@ -134,13 +134,13 @@
                     <label for="judullomba">Judul Lomba</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="deskripsi">Deskripsi</label>
+                    <label for="deskripsi" class="mt-2">Deskripsi</label>
                     <textarea type="text" class="form-control" id="" name=""> </textarea>
 
-                    <label for="lokasi">Lokasi</label>
+                    <label for="lokasi" class="mt-2">Lokasi</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="tanggal">Tanggal</label>
+                    <label for="tanggal" class="mt-2">Tanggal</label>
                     <input type="date" class="form-control" id="" name="">
 
                     <div class="form-group mt-3">

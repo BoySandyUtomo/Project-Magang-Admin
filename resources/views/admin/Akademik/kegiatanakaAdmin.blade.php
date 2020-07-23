@@ -80,7 +80,7 @@
                     <label for="judulkegiatanaka">Judul Kegiatan Akademik</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="deskripsi">Deskripsi</label>
+                    <label for="deskripsi" class="mt-2">Deskripsi</label>
                     <input type="text" class="form-control" id="" name="">
 
                 </form>
@@ -114,7 +114,7 @@
                     <label for="judulkegiatanaka">Judul Kegiatan Akademik</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="deskripsi">Deskripsi</label>
+                    <label for="deskripsi" class="mt-2">Deskripsi</label>
                     <input type="text" class="form-control" id="" name="">
 
                 </form>

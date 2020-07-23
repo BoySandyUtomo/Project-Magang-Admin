@@ -82,11 +82,11 @@
                     <label for="nim">Nim</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="nama">Nama</label>
+                    <label for="nama" class="mt-2">Nama</label>
                     <input type="text" class="form-control" id="" name="">
 
                     <div class="form-group">
-                        <label for="bk">Bidang Keahlian</label>
+                        <label for="bk" class="mt-2">Bidang Keahlian</label>
                         <select class="form-control" id="" name="">
                             <option value="" hidden> -- Pilih Bidang Keahlian -- </option>
 
@@ -125,17 +125,18 @@
                     <label for="nim">Nim</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="nama">Nama</label>
+                    <label for="nama" class="mt-2">Nama</label>
                     <input type="text" class="form-control" id="" name="">
 
                     <div class="form-group">
-                        <label for="bk">Bidang Keahlian</label>
+                        <label for="bk" class="mt-2">Bidang Keahlian</label>
                         <select class="form-control" id="" name="">
                             <option value="" hidden> -- Pilih Bidang Keahlian -- </option>
 
                             <option value=""></option>
                         </select>
                     </div>
+
                 </form>
 
             </div>

@@ -89,14 +89,14 @@
                     <label for="namatenaga">Nama Tenaga Kerja</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="alamat">Alamat</label>
+                    <label for="alamat" class="mt-2">Alamat</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="Telepon">Telepon</label>
+                    <label for="Telepon" class="mt-2">Telepon</label>
                     <input type="text" class="form-control" id="" name="">
 
                     <div class="form-group">
-                        <label for="jabatan">Jabatan</label>
+                        <label for="jabatan" class="mt-2">Jabatan</label>
                         <select class="form-control" id="" name="">
                             <option value="" hidden> -- Pilih Jabatan -- </option>
 
@@ -140,14 +140,14 @@
                     <label for="namatenaga">Nama Tenaga Kerja</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="alamat">Alamat</label>
+                    <label for="alamat" class="mt-2">Alamat</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="Telepon">Telepon</label>
+                    <label for="Telepon" class="mt-2">Telepon</label>
                     <input type="text" class="form-control" id="" name="">
 
                     <div class="form-group">
-                        <label for="jabatan">Jabatan</label>
+                        <label for="jabatan" class="mt-2">Jabatan</label>
                         <select class="form-control" id="" name="">
                             <option value="" hidden> -- Pilih Jabatan -- </option>
 

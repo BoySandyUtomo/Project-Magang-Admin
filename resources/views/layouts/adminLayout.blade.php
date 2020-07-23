@@ -18,6 +18,7 @@
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
     <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -110,7 +111,8 @@
                                 <a class="collapse-item" href="{{ url('visimisi') }}">Visi dan Misi</a>
                                 <a class="collapse-item" href="{{ url('struktur') }}">Struktur Organisasi</a>
                                 <a class="collapse-item" href="{{ url('prestasi') }}">Prestasi</a>
-                                <a class="collapse-item" href="{{ url('dosen') }}">Dosen dan Tenaga Kerja</a>
+                                <a class="collapse-item" href="{{ url('dosen') }}">Dosen</a>
+                                <a class="collapse-item" href="{{ url('tenaga') }}">Tenaga Kerja</a>
                             </div>
                         </div>
                     </li>
@@ -304,7 +306,7 @@
                                     <li class="nav-item dropdown no-arrow">
                                         <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             <span class="mr-2 d-none d-lg-inline text-gray-600 small">Valerie Luna</span>
-                                            <img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/60x60">
+                                            <img class="img-profile rounded-circle" src="{{ asset('img/a.png') }}">
                                         </a>
                                         <!-- Dropdown - User Information -->
                                         <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
@@ -397,8 +399,5 @@
                             branding: false
                         });
                     </script>
-
-
-
         </body>
 </html>

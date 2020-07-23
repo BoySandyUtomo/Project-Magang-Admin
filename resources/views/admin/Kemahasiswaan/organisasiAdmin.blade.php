@@ -84,10 +84,10 @@
                     <label for="namaorganisasi">Nama Organisasi</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="logo">Logo</label>
+                    <label for="logo" class="mt-2">Logo</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="deskripsi">Deskripsi</label>
+                    <label for="deskripsi" class="mt-2">Deskripsi</label>
                     <textarea type="text" class="form-control" id="" name=""> </textarea>
 
                     <div class="form-group mt-3">
@@ -127,10 +127,10 @@
                     <label for="namaorganisasi">Nama Organisasi</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="logo">Logo</label>
+                    <label for="logo" class="mt-2">Logo</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="deskripsi">Deskripsi</label>
+                    <label for="deskripsi" class="mt-2">Deskripsi</label>
                     <textarea type="text" class="form-control" id="" name=""> </textarea>
 
                     <div class="form-group mt-3">

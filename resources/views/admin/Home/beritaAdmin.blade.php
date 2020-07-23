@@ -64,6 +64,7 @@
             </div>
         </div>
     </div>
+</div>
     <!-- End of Main Content -->
 
 
@@ -87,11 +88,11 @@
                         <input type="text" class="form-control" id="" name="">
 
          
-                    <label for="deskripsi">Deskripsi</label>
+                    <label for="deskripsi" class="mt-2">Deskripsi</label>
                     <textarea type="text" class="form-control" id="" name=""> </textarea>
 
                         <div class="form-group mt-3">
-                            <label for="file">Gambar</label>
+                            <label for="file" class="mt-2">Gambar</label>
                             <input input id="file-upload" type="file" name="gambar" accept="image/*" onchange="readURL(this);" aria-describedby="inputGroupFileAddon01">
                         </div>
 
@@ -124,12 +125,12 @@
                     <form accept-charset="utf-8" enctype="multipart/form-data" method="post" action="">
                         @csrf
 
-                        <label for="judulBerita">Judul Berita</label>
+                        <label for="judulBerita" class="mt-2">Judul Berita</label>
                         <input type="text" class="form-control" id="" name="">
 
                     
-                    <label for="deskripsi">Deskripsi</label>
-                    <textarea type="text" class="form-control" id="" name=""> </textarea>
+                        <label for="deskripsi" class="mt-2">Deskripsi</label>
+                        <textarea type="text" class="form-control" id="" name=""> </textarea>
 
                         <div class="form-group mt-3">
                             <label for="file">Gambar</label>

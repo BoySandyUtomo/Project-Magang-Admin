@@ -85,7 +85,7 @@
                     <input type="text" class="form-control" id="" name="">
 
                     <div class="form-group">
-                        <label for="semester">Semester</label>
+                        <label for="semester" class="mt-2">Semester</label>
                         <select class="form-control" id="" name="">
                             <option value="" hidden> -- Pilih Semester -- </option>
 
@@ -93,10 +93,10 @@
                         </select>
                     </div>
 
-                    <label for="tanggalmulai">Tanggal Mulai</label>
+                    <label for="tanggalmulai" class="mt-2">Tanggal Mulai</label>
                     <input type="date" class="form-control" id="" name="">
 
-                    <label for="tanggalselesai">Tanggal Selesai</label>
+                    <label for="tanggalselesai" class="mt-2">Tanggal Selesai</label>
                     <input type="date" class="form-control" id="" name="">
 
 
@@ -133,7 +133,7 @@
                     <input type="text" class="form-control" id="" name="">
 
                     <div class="form-group">
-                        <label for="semester">Semester</label>
+                        <label for="semester" class="mt-2">Semester</label>
                         <select class="form-control" id="" name="">
                             <option value="" hidden> -- Pilih Semester -- </option>
 
@@ -141,10 +141,10 @@
                         </select>
                     </div>
 
-                    <label for="tanggalmulai">Tanggal Mulai</label>
+                    <label for="tanggalmulai" class="mt-2">Tanggal Mulai</label>
                     <input type="date" class="form-control" id="" name="">
 
-                    <label for="tanggalselesai">Tanggal Selesai</label>
+                    <label for="tanggalselesai" class="mt-2">Tanggal Selesai</label>
                     <input type="date" class="form-control" id="" name="">
 
 

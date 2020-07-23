@@ -36,7 +36,7 @@
                             <tr>
                                 <th>No</th> {{--Tolong buatkan script buat auto numbering--}}
                                 <th>Judul Penelitian</th>
-                                <th>peneliti</th>
+                                <th>Peneliti</th>
                                 <th>Tahun</th>
                                 <th>Link</th>
                                 <th>Action</th>
@@ -87,13 +87,13 @@
                     <label for="judulpenelitian">Judul Penelitian</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="peneliti">Peneliti</label>
+                    <label for="peneliti" class="mt-2">Peneliti</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="tahun">Tahun</label>
+                    <label for="tahun" class="mt-2">Tahun</label>
                     <input type="date" class="form-control" id="" name="">
 
-                    <label for="link">Link</label>
+                    <label for="link" class="mt-2">Link</label>
                     <input type="text" class="form-control" id="" name="">
 
 
@@ -128,13 +128,13 @@
                     <label for="judulpenelitian">Judul Penelitian</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="peneliti">Peneliti</label>
+                    <label for="peneliti" class="mt-2">Peneliti</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="tahun">Tahun</label>
+                    <label for="tahun" class="mt-2">Tahun</label>
                     <input type="date" class="form-control" id="" name="">
 
-                    <label for="link">Link</label>
+                    <label for="link" class="mt-2">Link</label>
                     <input type="text" class="form-control" id="" name="">
 
                 </form>

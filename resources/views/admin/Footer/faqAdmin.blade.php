@@ -83,7 +83,7 @@
                     <label for="petanyaan">Petanyaan</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="jawaban">Jawaban</label>
+                    <label for="jawaban" class="mt-2">Jawaban</label>
                     <input type="text" class="form-control" id="" name="">
 
 
@@ -118,7 +118,7 @@
                     <label for="petanyaan">Petanyaan</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="jawaban">Jawaban</label>
+                    <label for="jawaban" class="mt-2">Jawaban</label>
                     <input type="text" class="form-control" id="" name="">
 
 

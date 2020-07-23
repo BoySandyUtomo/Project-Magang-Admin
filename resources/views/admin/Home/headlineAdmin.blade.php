@@ -61,6 +61,7 @@
                 </div>
             </div>
         </div>
+    </div>
         <!-- End of Main Content -->
 
 
@@ -84,7 +85,7 @@
                             <input type="text" class="form-control" id="" name="">
 
 
-                            <label for="caption">Caption</label>
+                            <label for="caption" class="mt-2">Caption</label>
                             <input type="text" class="form-control" id="" name="">
 
                             <div class="form-group mt-3">
@@ -125,7 +126,7 @@
                             <input type="text" class="form-control" id="" name="">
 
 
-                            <label for="caption">Caption</label>
+                            <label for="caption" class="mt-2">Caption</label>
                             <input type="text" class="form-control" id="" name="">
 
                             <div class="form-group mt-3">

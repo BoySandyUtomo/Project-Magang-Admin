@@ -81,14 +81,14 @@
                 <form accept-charset="utf-8" enctype="multipart/form-data" method="post" action="">
                     @csrf
 
-                    <label for="namapengguna">Nama pengguna</label>
+                    <label for="namapengguna" class="mt-2">Nama pengguna</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="email">Email</label>
+                    <label for="email" class="mt-2">Email</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="password">Password</label>
-                    <input type="text" class="form-control" id="" name="">
+                    <label for="password" class="mt-2">Password</label>
+                    <input type="password" class="form-control" id="" name="">
 
                     <div class="form-group mt-3">
                         <label for="file">Gambar</label>
@@ -125,19 +125,20 @@
                     @csrf
 
 
-                    <label for="namapengguna">Nama pengguna</label>
+                    <label for="namapengguna" class="mt-2">Nama pengguna</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="email">Email</label>
+                    <label for="email" class="mt-2">Email</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="password">Password</label>
-                    <input type="text" class="form-control" id="" name="">
+                    <label for="password" class="mt-2">Password</label>
+                    <input type="password" class="form-control" id="" name="">
 
                     <div class="form-group mt-3">
                         <label for="file">Gambar</label>
                         <input input id="file-upload" type="file" name="gambar" accept="image/*" onchange="readURL(this);" aria-describedby="inputGroupFileAddon01">
                     </div>
+
 
 
                 </form>

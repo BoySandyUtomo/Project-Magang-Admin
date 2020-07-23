@@ -86,7 +86,7 @@
                     <input type="text" class="form-control" id="" name="">
 
                     <div class="form-group">
-                        <label for="bk">Bidang Keahlian</label>
+                        <label for="bk" class="mt-2">Bidang Keahlian</label>
                         <select class="form-control" id="" name="">
                             <option value="" hidden> -- Pilih Bidang Keahlian -- </option>
 
@@ -131,7 +131,7 @@
                     <input type="text" class="form-control" id="" name="">
 
                     <div class="form-group">
-                        <label for="bk">Bidang Keahlian</label>
+                        <label for="bk" class="mt-2">Bidang Keahlian</label>
                         <select class="form-control" id="" name="">
                             <option value="" hidden> -- Pilih Bidang Keahlian -- </option>
 

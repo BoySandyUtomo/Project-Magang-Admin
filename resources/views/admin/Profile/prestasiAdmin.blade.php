@@ -91,11 +91,11 @@
                     <label for="namakejuaraaan">Nama Kejuaraaan</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="nama">Nama</label>
+                    <label for="nama" class="mt-2">Nama</label>
                     <input type="text" class="form-control" id="" name="">
 
                     <div class="form-group">
-                    <label for="peringkat">Peringkat</label>
+                    <label for="peringkat" class="mt-2">Peringkat</label>
                       <select class="form-control" id="" name="">
                           <option value="" hidden> -- Pilih Peringkat -- </option>
                               <option value="Juara 1">Juara 1</option>
@@ -107,11 +107,11 @@
                       </select>
                     </div>
 
-                    <label for="tahun">Tahun</label>
+                    <label for="tahun" class="mt-2">Tahun</label>
                     <input type="text" class="form-control" id="" name="">
 
                     <div class="form-group">
-                    <label for="bk">Bidang Keahlian</label>
+                    <label for="bk" class="mt-2">Bidang Keahlian</label>
                       <select class="form-control" id="" name="">
                           <option value="" hidden> -- Pilih Bidang Keahlian -- </option>
 

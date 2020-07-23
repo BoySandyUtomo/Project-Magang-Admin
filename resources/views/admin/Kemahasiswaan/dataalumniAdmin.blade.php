@@ -85,7 +85,7 @@
                     <input type="text" class="form-control" id="" name="">
 
                     <div class="form-group">
-                        <label for="bk">Bidang Keahlian</label>
+                        <label for="bk" class="mt-2">Bidang Keahlian</label>
                         <select class="form-control" id="" name="">
                             <option value="" hidden> -- Pilih Bidang Keahlian -- </option>
 
@@ -93,10 +93,10 @@
                         </select>
                     </div>
 
-                    <label for="angkatan">Angkatan</label>
+                    <label for="angkatan" class="mt-2">Angkatan</label>
                     <input type="date" class="form-control" id="" name="">
 
-                    <label for="lulus">Lulus</label>
+                    <label for="lulus" class="mt-2">Lulus</label>
                     <input type="date" class="form-control" id="" name="">
 
 
@@ -133,7 +133,7 @@
                     <input type="text" class="form-control" id="" name="">
 
                     <div class="form-group">
-                        <label for="bk">Bidang Keahlian</label>
+                        <label for="bk" class="mt-2">Bidang Keahlian</label>
                         <select class="form-control" id="" name="">
                             <option value="" hidden> -- Pilih Bidang Keahlian -- </option>
 
@@ -141,10 +141,10 @@
                         </select>
                     </div>
 
-                    <label for="angkatan">Angkatan</label>
+                    <label for="angkatan" class="mt-2">Angkatan</label>
                     <input type="date" class="form-control" id="" name="">
 
-                    <label for="lulus">Lulus</label>
+                    <label for="lulus" class="mt-2">Lulus</label>
                     <input type="date" class="form-control" id="" name="">
 
                 </form>

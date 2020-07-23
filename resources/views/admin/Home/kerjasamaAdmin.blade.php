@@ -1,8 +1,6 @@
 @extends('layouts/adminLayout')
 @section('title', 'Kerja Sama')
 
-@endsection
-
 @section('content')
 
 <script type="text/javascript">
@@ -66,6 +64,7 @@
             </div>
         </div>
     </div>
+</div>
     <!-- End of Main Content -->
 
 
@@ -88,10 +87,10 @@
                         <label for="perusahaan">Perusahaan</label>
                         <input type="text" class="form-control" id="" name="">
 
-                        <label for="caption">Caption</label>
+                        <label for="caption" class="mt-2">Caption</label>
                         <input type="text" class="form-control" id="" name="">
 
-                        <label for="link">Link</label>
+                        <label for="link" class="mt-2">Link</label>
                         <input type="text" class="form-control" id="" name="">
 
                         <div class="form-group mt-3">
@@ -131,11 +130,10 @@
                         <label for="perusahaan">Perusahaan</label>
                         <input type="text" class="form-control" id="" name="">
 
-
-                        <label for="caption">Caption</label>
+                        <label for="caption" class="mt-2">Caption</label>
                         <input type="text" class="form-control" id="" name="">
 
-                        <label for="link">Link</label>
+                        <label for="link" class="mt-2">Link</label>
                         <input type="text" class="form-control" id="" name="">
 
                         <div class="form-group mt-3">

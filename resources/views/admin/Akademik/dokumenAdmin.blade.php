@@ -80,7 +80,6 @@
                     <label for="namadokumen">Nama Dokumen</label>
                     <input type="text" class="form-control" id="" name="">
 
-
                     <div class="form-group mt-3">
                         <label for="file">View</label>
                         <input input id="file-upload" type="file" name="file" accept="file/*" onchange="readURL(this);" aria-describedby="inputGroupFileAddon01">
@@ -118,12 +117,10 @@
                     <label for="namadokumen">Nama Dokumen</label>
                     <input type="text" class="form-control" id="" name="">
 
-
                     <div class="form-group mt-3">
                         <label for="file">View</label>
                         <input input id="file-upload" type="file" name="file" accept="file/*" onchange="readURL(this);" aria-describedby="inputGroupFileAddon01">
                     </div>
-
 
                 </form>
 

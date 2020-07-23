@@ -33,9 +33,9 @@
                         <tr>
                             <th>No</th> {{--Tolong buatkan script buat auto numbering--}}
                             <th>Nama Lowongan</th>
+                            <th>Deskripsi</th>
+                            <th>Jenis Lowongan</th>
                             <th>Gambar</th>
-                            <th>Lokasi</th>
-                            <th>Tanggal</th>
                             <th>Action</th>
                         </tr>
                     </thead>
@@ -84,12 +84,15 @@
                     <label for="namalowongan">Nama lowongan</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="deskripsi">Deskripsi</label>
+                    <label for="deskripsi" class="mt-2">Deskripsi</label>
                     <textarea type="text" class="form-control" id="" name=""> </textarea>
 
-                    <label for="jenis">jenis Lowongan</label>
-                    <input type="date" class="form-control" id="" name="">
-
+                    <div class="form-group">
+                    <label for="jenis" class="mt-2">Jenis Lowongan</label>
+                      <select class="form-control" id="" name="">
+                          <option value="" hidden> -- Pilih Jenis Lowongan -- </option>
+                      </select>
+                    </div>
 
                     <div class="form-group mt-3">
                         <label for="file">Gambar</label>
@@ -128,18 +131,20 @@
                     <label for="namalowongan">Nama lowongan</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="deskripsi">Deskripsi</label>
+                    <label for="deskripsi" class="mt-2">Deskripsi</label>
                     <textarea type="text" class="form-control" id="" name=""> </textarea>
 
-                    <label for="jenis">jenis Lowongan</label>
-                    <input type="date" class="form-control" id="" name="">
-
+                    <div class="form-group">
+                    <label for="jenis" class="mt-2">Jenis Lowongan</label>
+                      <select class="form-control" id="" name="">
+                          <option value="" hidden> -- Pilih Jenis Lowongan -- </option>
+                      </select>
+                    </div>
 
                     <div class="form-group mt-3">
                         <label for="file">Gambar</label>
                         <input input id="file-upload" type="file" name="gambar" accept="image/*" onchange="readURL(this);" aria-describedby="inputGroupFileAddon01">
                     </div>
-
 
                 </form>
 

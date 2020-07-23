@@ -83,7 +83,7 @@
                     <label for="Blog">Blog</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="link">Link</label>
+                    <label for="link" class="mt-2">Link</label>
                     <input type="text" class="form-control" id="" name="">
 
 
@@ -118,7 +118,7 @@
                     <label for="Blog">Blog</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="link">Link</label>
+                    <label for="link" class="mt-2">Link</label>
                     <input type="text" class="form-control" id="" name="">
 
                 </form>

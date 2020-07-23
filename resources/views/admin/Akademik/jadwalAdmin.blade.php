@@ -83,7 +83,7 @@
                     <label for="idjadwal">Id Jadwal</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="namajadwal">Nama Jadwal</label>
+                    <label for="namajadwal" class="mt-2">Nama Jadwal</label>
                     <input type="text" class="form-control" id="" name="">
 
                     <div class="form-group mt-3">
@@ -122,7 +122,7 @@
                     <label for="idjadwal">Id Jadwal</label>
                     <input type="text" class="form-control" id="" name="">
 
-                    <label for="namajadwal">Nama Jadwal</label>
+                    <label for="namajadwal" class="mt-2">Nama Jadwal</label>
                     <input type="text" class="form-control" id="" name="">
 
                     <div class="form-group mt-3">

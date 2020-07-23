@@ -68,6 +68,7 @@
             </div>
         </div>
     </div>
+</div>
     <!-- End of Main Content -->
 
 
@@ -90,25 +91,25 @@
                         <label for="namaBK">Nama Bidang Keahlian</label>
                         <input type="text" class="form-control" id="" name="">
 
-                        <label for="namaBK">Nama Bidang Keahlian</label>
+                        <label for="namaBK" class="mt-2">Nama Bidang Keahlian</label>
                         <input type="text" class="form-control" id="" name="">
           
-                    <label for="deskripsi">Deskripsi</label>
-                    <textarea type="text" class="form-control" id="" name=""> </textarea>
+                        <label for="deskripsi" class="mt-2">Deskripsi</label>
+                        <textarea type="text" class="form-control" id="" name=""> </textarea>
 
-                        <label for="idjadwal">Id Jadwal</label>
+                        <label for="idjadwal" class="mt-2">Id Jadwal</label>
                         <input type="text" class="form-control" id="" name="">
 
 
-                        <label for="kodejadwal">Kode Jadwal</label>
+                        <label for="kodejadwal" class="mt-2">Kode Jadwal</label>
                         <input type="text" class="form-control" id="" name="">
 
 
-                        <label for="Akreditasi">Akreditasi</label>
+                        <label for="Akreditasi" class="mt-2">Akreditasi</label>
                         <input type="text" class="form-control" id="" name="">
 
                         <div class="form-group mt-3">
-                            <label for="file">Gambar</label>
+                            <label for="file" class="mt-2">Gambar</label>
                             <input input id="file-upload" type="file" name="gambar" accept="image/*" onchange="readURL(this);" aria-describedby="inputGroupFileAddon01">
                         </div>
 
@@ -144,29 +145,28 @@
                         <label for="namaBK">Nama Bidang Keahlian</label>
                         <input type="text" class="form-control" id="" name="">
 
-
-                        <label for="namaBK">Nama Bidang Keahlian</label>
+                        <label for="namaBK" class="mt-2">Nama Bidang Keahlian</label>
                         <input type="text" class="form-control" id="" name="">
+          
+                        <label for="deskripsi" class="mt-2">Deskripsi</label>
+                        <textarea type="text" class="form-control" id="" name=""> </textarea>
 
-                    
-                    <label for="deskripsi">Deskripsi</label>
-                    <textarea type="text" class="form-control" id="" name=""> </textarea>
-
-                        <label for="idjadwal">Id Jadwal</label>
-                        <input type="text" class="form-control" id="" name="">
-
-
-                        <label for="kodejadwal">Kode Jadwal</label>
+                        <label for="idjadwal" class="mt-2">Id Jadwal</label>
                         <input type="text" class="form-control" id="" name="">
 
 
-                        <label for="Akreditasi">Akreditasi</label>
+                        <label for="kodejadwal" class="mt-2">Kode Jadwal</label>
+                        <input type="text" class="form-control" id="" name="">
+
+
+                        <label for="Akreditasi" class="mt-2">Akreditasi</label>
                         <input type="text" class="form-control" id="" name="">
 
                         <div class="form-group mt-3">
-                            <label for="file">Gambar</label>
+                            <label for="file" class="mt-2">Gambar</label>
                             <input input id="file-upload" type="file" name="gambar" accept="image/*" onchange="readURL(this);" aria-describedby="inputGroupFileAddon01">
                         </div>
+
 
 
                     </form>

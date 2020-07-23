@@ -86,7 +86,7 @@
                     <input type="text" class="form-control" id="" name="">
 
 
-                    <label for="Deskripsi">Deskripsi</label>
+                    <label for="Deskripsi" class="mt-2">Deskripsi</label>
                     <textarea type="text" class="form-control" id="" name=""> </textarea>
 
                     <div class="form-group mt-3">
@@ -127,7 +127,7 @@
                     <input type="text" class="form-control" id="" name="">
 
 
-                    <label for="Deskripsi">Deskripsi</label>
+                    <label for="Deskripsi" class="mt-2">Deskripsi</label>
                     <textarea type="text" class="form-control" id="" name=""> </textarea>
 
                     <div class="form-group mt-3">
