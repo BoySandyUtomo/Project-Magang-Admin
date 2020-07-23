@@ -19,7 +19,7 @@
           <div class="d-sm-flex align-items-center mb-4">
             <a type="submit" class="btn btn-primary ml-2" href="#" data-toggle="modal" data-target="#sosmedModal">Add</a>
           </div>
-          
+
 
           <!-- Content Row -->
           <div class="row">
