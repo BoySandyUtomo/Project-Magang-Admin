@@ -150,7 +150,7 @@
                         <input type="text" class="form-control" id="" name="">
 
                         <label for="deskripsi" class="mt-2">Deskripsi</label>
-                        <input type="text" class="form-control" id="" name="">
+                        <textarea type="text" class="form-control" id="" name=""> </textarea>
 
                         <div class="form-group row mt-2" >
                             <div class="col-sm-6 mb-3 mb-sm-0">

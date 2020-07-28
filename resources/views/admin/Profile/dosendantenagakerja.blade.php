@@ -1,5 +1,5 @@
 @extends('layouts/adminLayout')
-@section('title', 'Dosen dan Tenaga Kerja')
+@section('title', 'Dosen')
 
 @section('content')
 
@@ -45,7 +45,6 @@
                             <td width="1%" align="center">1</td> {{--Tolong buatkan script buat auto numbering--}}
                             <td>Tiger Nixon</td>
                             <td>System Architect</td>
-                            <td>Edinburgh</td>
                             <td align="center">
                                 <a href="#" data-toggle="modal" data-target="#editDosenModal" style="font-size: 18pt; text-decoration: none;" class="mr-3">
                                     <i class="fas fa-pen-square"></i>
