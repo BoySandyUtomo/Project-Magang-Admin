@@ -34,7 +34,7 @@
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ url('dashboard') }}">
                 <div>
-                    <img src="{{ asset('img/Login-image.png') }}" style="width: 50px !important; height: 50px !important;"> 
+                    <img src="{{ asset('img/Login-image.png') }}" style="width: 50px !important; height: 50px !important;">
                 </div>
                 <div class="sidebar-brand-text mx-3">Admin Prodi TI</div>
             </a>
@@ -112,7 +112,7 @@
                                 <a class="collapse-item" href="{{ url('struktur') }}">Struktur Organisasi</a>
                                 <a class="collapse-item" href="{{ url('prestasi') }}">Prestasi</a>
                                 <a class="collapse-item" href="{{ url('dosen') }}">Dosen</a>
-                                <a class="collapse-item" href="{{ url('tenaga') }}">Tenaga Kerja</a>
+                                <a class="collapse-item" href="{{ url('tenaga') }}">Tenaga Kependidikan</a>
                             </div>
                         </div>
                     </li>

@@ -1,5 +1,5 @@
 @extends('layouts/adminLayout')
-@section('title', 'Dosen dan Tenaga Kerja')
+@section('title', 'Tenaga Kependidikan')
 
 @section('content')
 
@@ -12,7 +12,7 @@
 
     <!-- Page Heading -->
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-        <h1 class="h3 mb-0 text-gray-800">Tenaga Kerja</h1>
+        <h1 class="h3 mb-0 text-gray-800">Tenaga Kependidikan</h1>
         <!-- <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>-->
     </div>
 
@@ -20,11 +20,11 @@
     <!-- Content Row -->
     <div class="card shadow mb-4">
         <div class="card-header py-3">
-            <h6 class="m-0 font-weight-bold text-primary">DataTables Tenaga Kerja</h6>
+            <h6 class="m-0 font-weight-bold text-primary">DataTables Tenaga Kependidikan</h6>
         </div>
 
         <div class="d-sm-flex align-items-center m-3">
-            <a type="submit" class="btn btn-primary ml-2" href="#" data-toggle="modal" data-target="#TenagaModal">+ Add Tenaga Kerja</a>
+            <a type="submit" class="btn btn-primary ml-2" href="#" data-toggle="modal" data-target="#TenagaModal">+ Add Tenaga Kependidikan</a>
         </div>
 
         <div class="card-body">
@@ -33,7 +33,7 @@
                     <thead>
                         <tr>
                             <th>No</th> {{--Tolong buatkan script buat auto numbering--}}
-                            <th>Nama Tenaga Kerja</th>
+                            <th>Nama Tenaga Kependidikan</th>
                             <th>Alamat</th>
                             <th>Telepon</th>
                             <th>Jabatan</th>
@@ -70,12 +70,12 @@
 <!-- End of Main Content -->
 
 
-<!-- Add Tenaga Kerja Modal-->
+<!-- Add Tenaga Kependidikan Modal-->
 <div class="modal fade" id="TenagaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Tambah Tenaga Kerja</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Tambah Tenaga Kependidikan</h5>
                 <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
@@ -86,7 +86,7 @@
                 <form accept-charset="utf-8" enctype="multipart/form-data" method="post" action="">
                     @csrf
 
-                    <label for="namatenaga">Nama Tenaga Kerja</label>
+                    <label for="namatenaga">Nama Tenaga Kependidikan</label>
                     <input type="text" class="form-control" id="" name="">
 
                     <label for="alamat" class="mt-2">Alamat</label>
@@ -121,12 +121,12 @@
 </div>
 
 
-<!-- Edit Tenaga Kerja Modal-->
+<!-- Edit Tenaga Kependidikan Modal-->
 <div class="modal fade" id="editTenagaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Edit Tenaga Kerja</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Edit Tenaga Kependidikan</h5>
                 <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
@@ -137,7 +137,7 @@
                 <form accept-charset="utf-8" enctype="multipart/form-data" method="post" action="">
                     @csrf
 
-                    <label for="namatenaga">Nama Tenaga Kerja</label>
+                    <label for="namatenaga">Nama Tenaga Kependidikan</label>
                     <input type="text" class="form-control" id="" name="">
 
                     <label for="alamat" class="mt-2">Alamat</label>
@@ -172,7 +172,7 @@
     </div>
 </div>
 
-<!-- Delete Tenaga Kerja Modal-->
+<!-- Delete Tenaga Kependidikan Modal-->
 <div class="modal fade" id="deleteTenagaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
